@@ -1,0 +1,88 @@
+#main{
+    padding: 130px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 66px;
+    width: 450px;
+    height: 700px;
+}
+
+.img{
+    background-color: hsl(245, 75%, 52%);
+    & img {
+        padding-top: 11px;
+        width: 100%;
+    }
+}
+
+.prf{
+    padding: 35px;
+    text-align: center;
+    & .h1{
+        font-family: 'Outfit', sans-serif;
+    }
+    & .p{
+        padding: 20px;
+        text-align: center;
+        font-family: 'Outfit', sans-serif;
+        color: hsl(224, 23%, 55%);
+    }
+}
+
+.price{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    & i {
+        font-size: 35px;
+        color: gray;
+        background-color: hsl(223, 89%, 93%);
+        border-radius: 10px;
+    }
+    & .box{
+        padding-left: 18px;
+        text-align: start;
+        & .h2{
+            font-size: 15px;
+            font-family: 'Outfit', sans-serif;
+        }
+        & .pyear{
+            font-size: 12px;
+            color: hsl(224, 23%, 55%);
+        }     
+    }
+    & a{
+        padding-left: 60px;
+        color: hsl(245, 75%, 52%);
+    }    
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    & .payment{
+        height: 45px;
+        border-radius: 6px;
+        border-color: hsl(245, 75%, 52%);
+        background-color: hsl(245, 75%, 52%);
+        color: #fff;
+        font-size: 14px;
+    }
+    & .order{
+        margin: 15px;
+        text-align: center;
+        text-decoration: none;
+        font-family:  'Outfit', sans-serif;
+        font-size: 13px;
+        color: rgb(114, 112, 112);
+    }
+}

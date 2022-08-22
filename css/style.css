@@ -6,3 +6,76 @@
 
 body {
   background-color: #e0e8ff; }
+
+#main {
+  padding: 130px; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #f5f7ff;
+  border-radius: 66px;
+  width: 450px;
+  height: 700px; }
+
+.img {
+  background-color: #3829e0; }
+  .img img {
+    padding-top: 11px;
+    width: 100%; }
+
+.prf {
+  padding: 35px;
+  text-align: center; }
+  .prf .h1 {
+    font-family: 'Outfit', sans-serif; }
+  .prf .p {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    color: #7280a7; }
+
+.price {
+  display: flex;
+  flex-direction: row;
+  background-color: #e0e8ff;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 0 auto; }
+  .price i {
+    font-size: 35px;
+    color: gray;
+    background-color: #dde6fd;
+    border-radius: 10px; }
+  .price .box {
+    padding-left: 18px;
+    text-align: start; }
+    .price .box .h2 {
+      font-size: 15px;
+      font-family: 'Outfit', sans-serif; }
+    .price .box .pyear {
+      font-size: 12px;
+      color: #7280a7; }
+  .price a {
+    padding-left: 60px;
+    color: #3829e0; }
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  padding: 70px; }
+  .btn .payment {
+    height: 45px;
+    border-radius: 6px;
+    border-color: #3829e0;
+    background-color: #3829e0;
+    color: #fff;
+    font-size: 14px; }
+  .btn .order {
+    margin: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    color: #727070; }
