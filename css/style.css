@@ -8,14 +8,13 @@ body {
   background-color: #e0e8ff; }
 
 #main {
-  padding: 130px; }
+  padding: 120px; }
 
 .container {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
   background-color: #f5f7ff;
-  border-radius: 66px;
   width: 450px;
   height: 700px; }
 
@@ -33,6 +32,7 @@ body {
   .prf .p {
     padding: 20px;
     text-align: center;
+    line-height: 23px;
     font-family: 'Outfit', sans-serif;
     color: #7280a7; }
 

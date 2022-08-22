@@ -1,5 +1,5 @@
 #main{
-    padding: 130px;
+    padding: 120px;
 }
 
 .container{
@@ -7,7 +7,6 @@
     flex-direction: column;
     margin: 0 auto;
     background-color: hsl(225, 100%, 98%);
-    border-radius: 66px;
     width: 450px;
     height: 700px;
 }
@@ -29,6 +28,7 @@
     & .p{
         padding: 20px;
         text-align: center;
+        line-height: 23px;
         font-family: 'Outfit', sans-serif;
         color: hsl(224, 23%, 55%);
     }
